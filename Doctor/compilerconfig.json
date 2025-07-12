@@ -1,0 +1,18 @@
+﻿[
+  {
+    "outputFile": "Components/Pages/Home.razor.css",
+    "inputFile": "Components/Pages/Home.razor.scss"
+  },
+  {
+    "outputFile": "Components/Layout/MainLayout.razor.css",
+    "inputFile": "Components/Layout/MainLayout.razor.scss"
+  },
+  {
+    "outputFile": "Components/Counter.razor.css",
+    "inputFile": "Components/Counter.razor.scss"
+  },
+  {
+    "outputFile": "Components/Pages/Calendar.razor.css",
+    "inputFile": "Components/Pages/Calendar.razor.scss"
+  }
+]

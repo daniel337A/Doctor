@@ -1,84 +1,22 @@
-﻿@page "/calendar"
+﻿@page "/"
  
-
-
-<div class="page flex-row-m gap32">
-    <div class="tabs flex-column-h gap20">
-        <Tab>
-            <Active>
-                <div class="flex-column">
-                </div>
-                <p>Patients</p>
-            </Active>
-            <Default>
-                <div class="flex-column">
-
-                </div>
-                <p>Patients</p>
-            </Default>
-        </Tab>
-        <Tab>
-            <Active>
-                <div class="flex-column">
-                </div>
-                <p>Patients</p>
-            </Active>
-            <Default>
-                <div class="flex-column">
-                </div>
-                <p>Patients</p>
-            </Default>
-        </Tab>
-        <Tab>
-            <Active>
-                <div class="flex-column">
-                </div>
-                <p>Patients</p>
-            </Active>
-            <Default>
-                <div class="flex-column">
-                </div>
-                <p>Patients</p>
-            </Default>
-        </Tab>
-        <div></div>
-        <Tab>
-            <Active>
-                <div class="flex-column">
-                </div>
-                <p>Patients</p>
-            </Active>
-            <Default>
-                <div class="flex-column">
-                </div>
-                <p>Patients</p>
-            </Default>
-        </Tab>
-        <Tab>
-            <Active>
-                <div class="flex-column">
-                </div>
-                <p>Patients</p>
-            </Active>
-            <Default>
-                <div class="flex-column">
-                </div>
-                <p>Patients</p>
-            </Default>
-        </Tab>
-
-    </div>
-
+<div class="calendar flex-row-m gap32">
+    <Tabs></Tabs>
+       
     <div class="flex-column-m gap16">
         <div class="header flex-row-w gap12">
-            <div class="flex-row ">
-            </div>
-
+            <Profile> </Profile>
         </div>
+        
         <div class="flex-row-m gap12">
-            <div class="flex-column-m">
-                <div class="flex-row-w">
-
+            <div class="flex-column-m gap12">
+                <div class="flex-row-w gap12">
+                    <p>May 2025</p>
+                    <Button> </Button>
+                    <giv class="flex-column-m gap12"> </giv>
+                    <Filter> </Filter>
+                    <Filter> </Filter>
+                    <Filter> </Filter>
                 </div>
                 <div class="week flex-row-w gap12">
                     <p class="fs14">Mon</p>
@@ -89,13 +27,17 @@
                     <p class="fs14">Sat</p>
                     <p class="fs14">Sun</p>
                 </div>
-                <div class="flex-column-m gap8">
-
+                <div class="flex-row-m gap8">
+                    <Plate> </Plate>
                 </div>
             </div>
-            <div></div>
+         
+            <div class="flex-column-h"> </div>
+       
         </div>
+   
     </div>
+
 </div>
 
 

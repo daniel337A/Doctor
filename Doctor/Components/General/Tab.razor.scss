@@ -1,0 +1,27 @@
+.tab {
+    padding: 16px;
+    box-sizing: border-box;
+    gap: 12px;
+    cursor: pointer;
+    border-radius: 16px;
+    background: #808A8700;
+    border-bottom: 4px solid #D4F18500;
+    transition: 0.2s;
+    transition: 0.5s border-bottom;
+
+
+    &:hover {
+        background: #808A8740;
+        border-bottom: 4px solid #D4F185;
+        transition: 0.2s border-bottom;
+
+        p {
+            color: #D4F185;
+        }
+    }
+
+    p {
+        color: #B5C6C0;
+        transition: 0.2s;
+    }
+}

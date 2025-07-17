@@ -1,12 +1,12 @@
-﻿<h3>Tab</h3>
+﻿<div class="tab flex-column-w">
+    <svg width="33" height="24">
+        <use href="vectors/calendar.svg#patients"></use>
+    </svg>
+    <p class="fs14">@ChildContent</p>
+</div>
 
-@Active
-@Default
 
-@code {
-    [Parameter]
-    public RenderFragment Active { get; set; }
-    [Parameter]
-    public RenderFragment Default { get; set; }
-    
+@code { [Parameter]
+    public RenderFragment? ChildContent { get; set; }
+       
 }

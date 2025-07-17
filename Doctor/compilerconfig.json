@@ -14,5 +14,17 @@
   {
     "outputFile": "Components/Pages/Calendar.razor.css",
     "inputFile": "Components/Pages/Calendar.razor.scss"
+  },
+  {
+    "outputFile": "Components/General/Tab.razor.css",
+    "inputFile": "Components/General/Tab.razor.scss"
+  },
+  {
+    "outputFile": "Components/General/Button.razor.css",
+    "inputFile": "Components/General/Button.razor.scss"
+  },
+  {
+    "outputFile": "Components/General/Tabs.razor.css",
+    "inputFile": "Components/General/Tabs.razor.scss"
   }
 ]

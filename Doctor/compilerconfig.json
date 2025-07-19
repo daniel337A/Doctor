@@ -26,5 +26,9 @@
   {
     "outputFile": "Components/General/Tabs.razor.css",
     "inputFile": "Components/General/Tabs.razor.scss"
+  },
+  {
+    "outputFile": "Components/General/Page.razor.css",
+    "inputFile": "Components/General/Page.razor.scss"
   }
 ]

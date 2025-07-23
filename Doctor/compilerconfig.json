@@ -30,5 +30,21 @@
   {
     "outputFile": "Components/General/Page.razor.css",
     "inputFile": "Components/General/Page.razor.scss"
+  },
+  {
+    "outputFile": "Components/General/Profile.razor.css",
+    "inputFile": "Components/General/Profile.razor.scss"
+  },
+  {
+    "outputFile": "Components/General/Week.razor.css",
+    "inputFile": "Components/General/Week.razor.scss"
+  },
+  {
+    "outputFile": "Components/General/Filter.razor.css",
+    "inputFile": "Components/General/Filter.razor.scss"
+  },
+  {
+    "outputFile": "Components/General/Plate.razor.css",
+    "inputFile": "Components/General/Plate.razor.scss"
   }
 ]

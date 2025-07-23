@@ -1,0 +1,14 @@
+﻿.profile {
+  gap: 12px;
+}
+.profile .info {
+  padding: 9px 0px;
+}
+.profile .info .name {
+  font-size: 14px;
+  color: #ffffff;
+}
+.profile .info .time {
+  font-size: 10px;
+  color: #CCCCCC;
+}
